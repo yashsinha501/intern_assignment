@@ -94,7 +94,7 @@ const contact = asyncHandler(async (req, res) => {
     name,
     email,
     phone,
-    message
+    linkedin
   });
 
   try {
@@ -105,7 +105,7 @@ const contact = asyncHandler(async (req, res) => {
         name:use.name,
         email:use.email,
         phone:use.phone,
-        message:use.message,
+        linkedin:use.linkedin
     })
   } catch (error) {
         console.log(error);

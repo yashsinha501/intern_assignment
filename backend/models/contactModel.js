@@ -14,10 +14,11 @@ const contactSchema = mongoose.Schema({
         type: Number,
         required: true
     },
-    message: {
+    linkedin: {
         type: String,
-        required: false,
+        required: true,
     },
+
 }, {
     timestamps: true
 })
